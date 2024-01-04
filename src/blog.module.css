@@ -1,0 +1,113 @@
+/* styles for three name*/
+.name{
+    display: flex;
+    margin-left: 10%;
+    gap: 38px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+/* styles for three deatails div*/
+.deatail{
+    margin-top: 2%;
+    color: black;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+/* style for fee structure*/
+.fee{
+    margin-left: 12%;
+    border: none;
+    background-color: rgb(176 204 240);
+    width: 25%;
+    margin-top: -12%;
+    position: absolute;
+    left: 55%;
+    opacity: 2;
+    
+}
+.payment{
+    margin-left: 20px;
+}
+.button{
+    background-color: blue;
+    font-size: larger;
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5% 5%;
+}
+/* styles for  aboutInstrutor div */
+.aboutInstructor{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.para{
+    margin-top:-18px;
+}
+
+ 
+.about:hover {
+   border-bottom: 2px solid blue ;
+   cursor: pointer;
+}
+.instructor:hover {
+    border-bottom: 2px solid blue ;
+    cursor: pointer;
+ }
+ .review:hover {
+    border-bottom: 2px solid blue ;
+    cursor: pointer;
+ }
+ .testimonial{
+    width: 87%;
+    background-color: rgb(236, 240, 242);
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 48px;
+    color:#111010;
+ }
+ .text{
+   text-align: center;
+    width: 80%;
+    margin-left: 9%;
+    font-size: 2rem;
+    font-weight: 800;
+ }
+ .viewer_details{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-left: 27%;
+    text-align: center;
+
+ }
+ .V_image{
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+ .R_name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: -20px;
+ }
+ .designation{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-left: -19%;
+ }
